@@ -7,39 +7,52 @@
     <title>2ndLAB未来装置研究所</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./src/main.css">
-    <script src="./src/main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="./src/ripple.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./src/component.css">
 </head>
 
 <body>
-    <header>
+    <header class="shadow">
         <div class="box header">
             <img class="logo" src="./res/images/01.png" alt="logo">
             <h1 class="header_title">2ndLAB未来装置研究所</h1>
         </div>
     </header>
-    <table>
+    <table class="shadow">
         <tr>
             <th>
-                <a href="https://github.com/peaceshi" class="menu my_github">github</a>
-            <th>
-                <a href="https://www.zhihu.com/people/peace-shi/activities" class="menu my_zhihu">知乎</a>
-            </th>
-            <th>
-                <a href="https://github.com/2ndlab" class="menu 2ndlab">研究所</a>
-            </th>
+                <a href="https://github.com/peaceshi" class="btn btn-menu shadow ripple">github</a>
+                <th>
+                    <a href="https://www.zhihu.com/people/peace-shi/activities" class="btn btn-menu shadow ripple">知乎</a>
+                </th>
+                <th>
+                    <a href="https://github.com/2ndlab" class="btn btn-menu shadow ripple">研究所</a>
+                </th>
         </tr>
     </table>
     <section>
-        <div class="sidebar">
-            <h2>说明</h2>
+        <div class="sidebar shadow">
+            <a class="tab-effect btn btn-tab" href="#tab-1-container">1</a>
+            <a class="tab-effect btn btn-tab" href="#tab-2-container">2</a>
+            <a class="tab-effect btn btn-tab" href="#tab-3-container">3</a>
+            <a class="tab-effect btn btn-tab" href="#tab-4-container">4</a>
         </div>
-        <article>
-            <h2>说明</h2>
-            <br /> 这是一个什么都没有的页面
-            <br /> 看心情搞不搞了吧</p>    
+        <article class="shadow">
+            <div id="tab-1-container" class="tab-container">
+                Tab 1 content
+            </div>
+            <div id="tab-2-container" class="tab-container">
+                Tab 2 content
+            </div>
+            <div id="tab-3-container" class="tab-container">
+                Tab 3 content
+            </div>
+            <div id="tab-4-container" class="tab-container">
+                Tab 4 content
+            </div>
         </article>
     </section>
-    <div class="footer">
+    <div class=" box footer shadow">
         <div class="box">什么都没有了呢(〃'▽'〃)</div>
     </div>
 </body>
